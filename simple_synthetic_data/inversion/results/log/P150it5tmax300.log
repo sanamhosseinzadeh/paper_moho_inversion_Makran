@@ -1,0 +1,92 @@
+=========================================================================
+Log Path:
+C:/Users/kullanici/Documents/sanam/Makran_Hybrid_Modified/log/P150it5tmax300.log
+Program Path: C:/Users/kullanici/Documents/sanam/Makran_Hybrid_Modified/Log.R
+Working Directory: C:/Users/kullanici/Documents
+User Name: kullanici
+R Version: 4.3.0 (2023-04-21 ucrt)
+Machine: PC-W1703 x86-64
+Operating System: Windows 10 x64 build 18362
+Base Packages: stats graphics grDevices utils datasets methods base Other
+Packages: logr_1.3.3 NMOF_2.7-1
+Log Start Time: 2024-02-22 14:59:37.594519
+=========================================================================
+
+Inversion of Bouguer Anomalies using Hybrid DE & PSO
+
+**** Initial Parameters ****
+
+Population Size: 150
+
+Number of Generations Per Each Algorithm: 5
+
+Number of Iterations in Hybrid: 300
+
+Cognitive Scaling Factor in PSO: 1.7
+
+Social Scaling Factor in PSO: 1.7
+
+Inertia Weight in PSO: 0.715
+
+Probability for Crossover in DE: 0.9
+
+Mutation Constant in DE: 0.4
+
+**** Elapsed Time for Each Iteration ****
+
+    1 
+11761 
+
+Mean of Time for n Runs: 11761.37
+
+Best model parameters were obtained at the iteration no: 1
+
+**** rms Information Among n Runs:****
+
+Minimum rms value: 0.000216343146302632
+
+[1] 0.00021634
+
+Maximum rms value: 0.000216343146302632
+
+[1] 0.00021634
+
+Mean of rms Values: 0.000216343146302632
+
+[1] 0.00021634
+
+Standard Deviation of rms Values: NA
+
+[1] NA
+
+**** Optimum solution ****
+
+ [1] 25.00004 24.99995 25.00000 24.99994 25.00001 24.99997 25.00002 29.99998
+ [9] 29.99999 30.00004 29.99996 30.00000 29.99999 30.00003 35.00005 35.00000
+[17] 34.99994 35.00006 34.99997 35.00002 34.99999 39.99998 39.99998 40.00000
+[25] 39.99996 40.00001 39.99999 40.00001 39.99998 45.00001 44.99996 45.00009
+[33] 45.00000 44.99997 40.00003 40.00000 45.00000 50.00009 49.99987 50.00003
+[41] 44.99998 40.00002 40.00001 44.99996 50.00000 50.00003 49.99991 45.00004
+[49] 39.99998 39.99996 45.00006 50.00002 49.99995 50.00003 45.00002 40.00004
+[57] 40.00002 44.99991 45.00000 44.99998 45.00003 44.99994 39.99996 39.99999
+[65] 40.00000 40.00002 40.00005 39.99999 39.99996 40.00006 34.99996 35.00001
+[73] 35.00000 34.99994 35.00002 35.00003 34.99997 30.00001 29.99999 30.00001
+[81] 30.00004 29.99998 29.99999 30.00000 24.99999 24.99998 25.00002 24.99996
+[89] 24.99999 25.00002 25.00000  0.00022
+
+Average Colaboration of Each Algorithm in The Hybrid (Percent)
+
+better
+ DE PSO 
+ 76  24 
+
+Colaboration of Each Algorithm for Optimum Solution Among n runs (Percent)
+
+
+ DE PSO 
+ 76  24 
+
+=========================================================================
+Log End Time: 2024-02-22 14:59:37.866407
+Log Elapsed Time: 0 00:00:00
+=========================================================================

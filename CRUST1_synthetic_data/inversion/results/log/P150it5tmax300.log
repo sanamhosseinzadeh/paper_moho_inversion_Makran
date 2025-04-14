@@ -1,0 +1,92 @@
+=========================================================================
+Log Path:
+C:/Users/kullanici/Documents/sanam/Makran_Hybrid_Modified/log/P150it5tmax300.log
+Program Path: C:/Users/kullanici/Documents/sanam/Makran_Hybrid_Modified/Log.R
+Working Directory: C:/Users/kullanici/Documents
+User Name: kullanici
+R Version: 4.3.0 (2023-04-21 ucrt)
+Machine: PC-W1703 x86-64
+Operating System: Windows 10 x64 build 18362
+Base Packages: stats graphics grDevices utils datasets methods base Other
+Packages: logr_1.3.3 NMOF_2.7-1
+Log Start Time: 2024-02-29 15:02:58.990764
+=========================================================================
+
+Inversion of Bouguer Anomalies using Hybrid DE & PSO
+
+**** Initial Parameters ****
+
+Population Size: 150
+
+Number of Generations Per Each Algorithm: 5
+
+Number of Iterations in Hybrid: 300
+
+Cognitive Scaling Factor in PSO: 1.7
+
+Social Scaling Factor in PSO: 1.7
+
+Inertia Weight in PSO: 0.715
+
+Probability for Crossover in DE: 0.9
+
+Mutation Constant in DE: 0.4
+
+**** Elapsed Time for Each Iteration ****
+
+    1 
+11219 
+
+Mean of Time for n Runs: 11219.15
+
+Best model parameters were obtained at the iteration no: 1
+
+**** rms Information Among n Runs:****
+
+Minimum rms value: 4.00753157326278
+
+[1] 4.0075
+
+Maximum rms value: 4.00753157326278
+
+[1] 4.0075
+
+Mean of rms Values: 4.00753157326278
+
+[1] 4.0075
+
+Standard Deviation of rms Values: NA
+
+[1] NA
+
+**** Optimum solution ****
+
+ [1] 39.48483 40.30686 38.74981 40.15980 39.80087 44.13092 43.31589 40.13225
+ [9] 39.64479 39.73633 38.89273 39.74883 44.01192 47.01806 38.62225 38.99427
+[17] 40.21102 40.32127 40.99950 44.78565 44.76356 39.41511 40.38342 40.77448
+[25] 41.28814 41.54289 43.89720 43.16838 39.94938 36.82001 39.40143 42.48570
+[33] 41.06102 42.08307 38.28550 36.84437 12.38553 32.64222 39.07076 41.01355
+[41] 39.66797 39.59115 13.28982 11.91613 33.31291 39.63988 41.39725 41.96154
+[49] 39.96896 13.13909 11.94632 31.02361 37.20248 42.25756 41.05218 38.96312
+[57] 13.57826 21.71326 30.18095 36.31687 41.31397 40.30030 40.87125 13.13970
+[65] 21.87271 30.93762 35.67263 40.01747 41.82213 41.04142 11.21169 10.55620
+[73] 31.77387 35.88221 38.56266 41.38113 40.53242 11.92468 10.79766 31.86614
+[81] 36.54421 39.44796 40.59596 41.54471 22.28807 29.42122 32.73942 36.70400
+[89] 37.45431 40.44334 41.43383  4.00753
+
+Average Colaboration of Each Algorithm in The Hybrid (Percent)
+
+better
+     DE     PSO 
+74.3333 25.6667 
+
+Colaboration of Each Algorithm for Optimum Solution Among n runs (Percent)
+
+
+     DE     PSO 
+74.3333 25.6667 
+
+=========================================================================
+Log End Time: 2024-02-29 15:02:59.303409
+Log Elapsed Time: 0 00:00:00
+=========================================================================
