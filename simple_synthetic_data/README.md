@@ -1,4 +1,4 @@
-# Folder Organization Overview
+# Folder Structure and File Descriptions
 
 This folder contains the datasets, R scripts, and GMT codes used in the section titled "Simple Synthetic Data" of the paper. 
 The materials are organized into subfolders for forward modeling and inversion. 
