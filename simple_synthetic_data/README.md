@@ -6,7 +6,7 @@ Each folder is self-contained, with the corresponding data, scripts, and results
 All resulting figures are saved in their respective folder for direct access.
 
 ### forward/  
-This folder performs forward gravity modeling, as explained in the Gravitational Forward Modeling section of the paper.
+This folder contains the scripts, data, results, and figures related to the forward gravity modeling process.
 
 - `data/Simple_Moho_Model.csv`: Input file defining the simple synthetic Moho model.  
 - `R_scripts/Forward.R`: R script to compute the synthetic gravity data from the Moho model.  
@@ -16,7 +16,7 @@ This folder performs forward gravity modeling, as explained in the Gravitational
 - `figures_GMT_scripts/figure3a_map_Simple_Moho_Model/b_map.bat`: GMT script to map the simple synthetic gravity data (Figure 3b).  
 
 ### inversion/  
-This folder runs the inversion process using the hybrid DE/PSO metaheuristic algorithm.
+This folder contains the scripts, data, results, and figures related to the inversion process using the hybrid DE/PSO metaheuristic algorithm.
 
 - `data/Simple_Moho_Model.csv`: Input file defining the simple synthetic Moho model.  
 - `data/Simple_Synthetic_Data.csv`: Input file defining the synthetic gravity data.  
