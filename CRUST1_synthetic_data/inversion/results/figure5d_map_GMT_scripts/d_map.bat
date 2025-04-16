@@ -2,8 +2,7 @@ set lon_min_ext=53
 set lon_max_ext=66
 set lat_min_ext=23
 set lat_max_ext=30
-set lon_av=59.5
-set lat_av=26.5
+
 set lon_min=53
 set lon_max=66
 set lat_min=23
