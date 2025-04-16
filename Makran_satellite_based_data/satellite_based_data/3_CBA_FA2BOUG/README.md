@@ -1,15 +1,8 @@
 # FA2BOUG – Bouguer Anomaly Computation Tool
 
-**Author:** J. Fullea, M. Fernàndez, H. Zeyen  
-**Publication:** *FA2BOUG—A FORTRAN 90 code to compute Bouguer gravity anomalies from gridded free-air anomalies: Application to the Atlantic-Mediterranean transition zone*,  
-Computers & Geosciences, Volume 34, Issue 12, 2008, Pages 1665–1681.  
-DOI: [10.1016/j.cageo.2008.02.018](https://doi.org/10.1016/j.cageo.2008.02.018)
-
----
-
 ## Overview
 
-**FA2BOUG** is a FORTRAN 90 code designed to compute Bouguer gravity anomalies from gridded free-air anomalies using Bullard A–C topographic corrections on a Cartesian grid.
+**FA2BOUG** ([Fullea et al. 2008)](https://doi.org/10.1016/j.cageo.2008.02.018) is a FORTRAN 90 code designed to compute Bouguer gravity anomalies from gridded free-air anomalies using Bullard A–C topographic corrections on a Cartesian grid.
 
 The tool takes as input a digital elevation model (topography) and gravity anomaly data, processes topographic corrections in concentric zones (near, intermediate, and distant), and produces both the fully corrected Bouguer anomaly and the slab-corrected anomaly.
 
