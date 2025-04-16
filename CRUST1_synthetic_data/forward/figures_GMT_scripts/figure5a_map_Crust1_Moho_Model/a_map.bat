@@ -25,9 +25,6 @@ set r=-Rd%lon_min_ext%/%lat_min_ext%/%lon_max_ext%/%lat_max_ext%r
 set s=-JM3.9
 set scalpos=-D4.2/1.15/2.3/0.3c
 
-# Use xyz2grd to create a.grd
-xyz2grd a.txt  %i2% -V %r2% -Ga.grd
-
 # Use grd2cpt to create a.cpt
 grd2cpt a.grd -V %r2% -Cjet -Z > a.cpt
 
