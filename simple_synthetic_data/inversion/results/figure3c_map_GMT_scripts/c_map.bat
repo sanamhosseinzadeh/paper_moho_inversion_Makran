@@ -25,9 +25,6 @@ set r=-Rd%lon_min_ext%/%lat_min_ext%/%lon_max_ext%/%lat_max_ext%r
 set s=-JM3.9
 set scalpos=-D4.2/1.15/2.3/0.3c
 
-# Use xyz2grd to create a.grd
-xyz2grd c.txt  %i2% -V %r2% -Gc.grd
-
 # Plot map
 grdimage c.grd %s% %r% -Cc.cpt -K -P -V -B1g1WNes:.c: > %psfile%
 pscoast %r% %s% -Dh -I1/1p,blue -A1000 -O -K -W1p >> %psfile%
