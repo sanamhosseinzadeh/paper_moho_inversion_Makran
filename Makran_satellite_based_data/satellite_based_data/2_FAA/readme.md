@@ -27,7 +27,7 @@ This folder contains MATLAB scripts to compute the **Free-Air Anomaly (FAA)** fr
 - **Output:**
   - File `FAA.dat` includes longitude, latitude and Free-Air Anomaly value (in mGal)
 
-- **Usage:**
+## Usage
   ```matlab
      'run FAA_cal.m'
 	 with function `Pnm_normalise.m` 
