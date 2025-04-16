@@ -31,7 +31,7 @@ Note: Open the `run1.RData` file first, then run this script. It uses the saved 
 - `results/figure11_plot_R_scripts/ReadData_MSE_Plot`: R script to plot Figure 11.  
 Note: The script contains paths that must be updated to match your system before running.
 Description: The input files are located in `results/figure11_plot_R_scripts/ReadData_MSE_Plot/H_Ro_Results` folder that contains
-`.csv` files containing the inversion results using various combinations of reference Moho depth (h<sub>0</sub) and density contrast (Δρ).
+`.csv` files containing the inversion results using various combinations of reference Moho depth (h<sub>0</sub>) and density contrast (Δρ).
 They are named in the format `Result_h0_Δρ.csv.`.
 The input file `Moho_Makran_2018_1deg.txt` is the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005). 
 - `results/figure12a_map_GMT_scripts/a_map.bat`: GMT script to map the estimated Moho depths (Figure 12a).
