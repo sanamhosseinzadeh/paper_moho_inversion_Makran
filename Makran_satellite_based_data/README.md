@@ -5,14 +5,14 @@ The materials are organized into subfolders for satellite_based_data and inversi
 Each folder is self-contained, with the corresponding data, scripts, and results provided for transparency and reproducibility.
 All resulting figures are saved in their respective folder for easy access.
 
-### satellite_based_data/  
+## satellite_based_data/  
 This folder contains the scripts, data, results, and figures to obtain satellite-based Bouguer anomalies.
 The subfolders `1_Sat_model/`, `2_FAA/`, and `3_CBA_FA2BOUG/` contain the steps for obtaining the satellite-based Bouguer data and the `README.md` file located in each folder includes the descriptions of the files and scripts.
 
 - `figure7a_map_GMT_scripts/a_map.bat`: GMT script to map the free-air gravity anomalies (Figure 7a).  
 - `figure7b_map_GMT_scripts/b_map.bat`: GMT script to map the Bouguer gravity anomalies (Figure 7b).  
 
-### inversion/  
+## inversion/  
 This folder contains the scripts, data, results, and figures related to the inversion process using the hybrid DE/PSO metaheuristic algorithm.
 
 - `data/Model_Coordinates.csv`: Input file defining the coordinates of the unknown Moho model.  
