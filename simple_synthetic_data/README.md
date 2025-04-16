@@ -20,11 +20,11 @@ Note: The script contains paths that must be updated to match your system before
 - **Input:** `data/Simple_Moho_Model.csv`
 - **Output:** `data/Simple_Synthetic_Data.csv`
 
-2- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/a_map.bat`
+2- run `figures_GMT_scripts/figure3a_map_Simple_Moho_Model/a_map.bat`
   - **Input:** `a.txt` that is the txt file of `data/Simple_Moho_Model.csv`
 
 
-3- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/b_map.bat`
+3- run `figures_GMT_scripts/figure3a_map_Simple_Moho_Model/b_map.bat`
    - **Input:** `b.txt` that is the txt file of `data/Simple_Synthetic_Data.csv`
    - 
 ## inversion/  
@@ -43,6 +43,32 @@ Note: The script contains paths that must be updated to match your system before
 Note: Open the `run1.RData` file first, then run this script. It uses the saved workspace variables.  
 - `results/output_files_R_scripts/Output_Files_R_scripts.R`: R script to generate `.csv` files containing the inversion results.  
 Note: Open the `run1.RData` file first, then run this script. It uses the saved workspace variables.
+
+### Usage
+1- run `R_scripts/Inversion_Hybrid_Main_Code.R`
+- **Input:** `data/Simple_Synthetic_Data.csv`,`data/Simple_Moho_Model.csv`
+- **Output:** log folder including `.log`, `.RData`, and `.pdf` files. `.RData` saves all inversion results.
+
+2- run `results/output_files_R_scripts/Output_Files_R_scripts.R`
+  
+Note: Open the output `.RData` workspace file before running
+- **Output:** `Caculated_Data.csv`, `Data_Residuals.csv`, `Estimated_Moho_Depths.csv`, and `Moho_Depth_Residuals.csv`
+
+3- run `results/figure3c_map_GMT_scripts/c_map.bat`
+- **Input:** `c.txt` that is the txt file of `Estimated_Moho_Depths.csv`
+
+4- run `results/figure3d_map_GMT_scripts/d_map.bat`
+- **Input:** `d.txt` that is the txt file of `Caculated_Data.csv`
+
+5- run `results/figure3e_map_GMT_scripts/e_map.bat`
+- **Input:** `e.txt` that is the txt file of `Moho_Depth_Residuals.csv`
+
+6- run `results/figure3f_map_GMT_scripts/f_map.bat`
+- **Input:** `f.txt` that is the txt file of `Data_Residuals.csv`
+
+7- run `results/figure4_plots_R_scripts/Figure4_Plots_R_scripts.R`
+
+Note: Open the output `.RData` workspace file before running
 
  ## Reproducibility Note
 
