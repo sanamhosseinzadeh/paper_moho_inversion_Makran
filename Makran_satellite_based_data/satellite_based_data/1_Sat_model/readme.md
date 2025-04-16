@@ -1,6 +1,5 @@
 # Gravity Field Processing with GOCE TIM R6 and WGS84 Correction
 
-
 This processes a satellite-derived geopotential model to prepare it for geophysical analysis by:
 
 1. **Extracting spherical harmonic coefficients** (`n`, `m`, `Cnm`, `Snm`) from the GOCE TIM R6 gravity model (GO_CONS_GCF_2_TIM_R6.gfc).
@@ -26,10 +25,14 @@ This processes a satellite-derived geopotential model to prepare it for geophysi
 
 ## Files and Scripts
 
-### 1. `Sat_M.dat`
-- **Description:** Raw data file containing extracted spherical harmonic coefficients from the `GO_CONS_GCF_2_TIM_R6.gfc` file of the GOCE TIM R6 model.
-- **Output:** `Sat_M.dat` Each row contains: `n`, `m`, `Cnm`, `Snm` 
-- **Usage:**
+- `GO_CONS_GCF_2_TIM_R6.gfc`: The raw GOCE gravity model file used as input for the extraction process.
+- `extract_model.bat`: Extracts raw spherical harmonic coefficients from the `GO_CONS_GCF_2_TIM_R6.gfc` file.
+- `Sat_M.dat`: Contains the extracted spherical harmonic coefficients from the GOCE model (output from `extract_model.bat`). Each row contains: `n`, `m`, `Cnm`, `Snm`
+
+- `WGS84_coefficient_correction.m`: MATLAB script to correct the extracted coefficients by removing the WGS84 normal gravity terms.
+- `Sat_M_corrected.dat`: Contains the corrected coefficients after removing WGS84 contributions.
+
+## Usage
 ```Bashscriptt
 run('extract_model.bat')```
 
