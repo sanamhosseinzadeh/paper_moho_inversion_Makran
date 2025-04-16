@@ -41,4 +41,4 @@ As a result, the inversion results — including estimated Moho depths and resid
 - The results obtained from the inversion process can vary due to the random nature of the hybrid DE/PSO metaheuristic algorithm.  
 Since no fixed seed was set, running the inversion code multiple times may lead to slightly different outcomes, such as variations in the estimated Moho depths and residuals.
 
-To reproduce the exact figures and values presented in the paper, you can directly use the `.csv`, `.RData`, and output files provided in this folder.
+The exact figures and values presented in the paper can be reproduced using the provided `.csv`, `.RData`, and output files included in this folder.
