@@ -1,13 +1,13 @@
 # Folder Structure and File Descriptions
 
-This folder contains the datasets, software codes used in the section titled "Moho Depth in the Makran Zone, SE Iran" of the paper. 
+This folder contains the datasets and software codes used in the section titled "Moho Depth in the Makran Zone, SE Iran" of the paper. 
 The materials are organized into subfolders for satellite_based_data and inversion. 
 Each folder is self-contained, with the corresponding data, scripts, and results provided for transparency and reproducibility.
 All resulting figures are saved in their respective folder for easy access.
 
 ### satellite_based_data/  
 This folder contains the scripts, data, results, and figures to obtain satellite-based Bouguer anomalies.
-The subfolders 1_Sat_model, 2_FAA, and 3_CBA_FA2BOUG contains the steps for obtaining the satellite-based Bouguer data and the `README.md` file located in each 
+The subfolders 1_Sat_model, 2_FAA, and 3_CBA_FA2BOUG contain the steps for obtaining the satellite-based Bouguer data and the `README.md` file located in each 
 folder includes the descriptions of the files and scripts.
 
 - `figure7a_map_GMT_scripts/a_map.bat`: GMT script to map the free-air gravity anomalies (Figure 7a).  
@@ -31,14 +31,14 @@ Note: Open the `run1.RData` file first, then run this script. It uses the saved 
 Note: Open the `run1.RData` file first, then run this script. It uses the saved workspace variables.
 - `results/figure11_plot_R_scripts/ReadData_MSE_Plot`: R script to plot Figure 11.  
 Note: The script contains paths that must be updated to match your system before running.
-Destruction: The input files are located in `results/figure11_plot_R_scripts/ReadData_MSE_Plot/H_Ro_Results` folder that contains
-`.csv` files containing the inversion results using various combinations of Moho depth (h<sub>0</sub>) and density contrast (Δρ).
-They are named in `Result_h0_Δρ.csv.` format.
+Description: The input files are located in `results/figure11_plot_R_scripts/ReadData_MSE_Plot/H_Ro_Results` folder that contains
+`.csv` files containing the inversion results using various combinations of reference Moho depth (h<sub>0</sub>) and density contrast (Δρ).
+They are named in the format `Result_h0_Δρ.csv.`.
 The input file `Moho_Makran_2018_1deg.txt` is the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005). 
 - `results/figure12a_map_GMT_scripts/a_map.bat`: GMT script to map the estimated Moho depths (Figure 12a).
 - `results/figure12b_map_GMT_scripts/b_map.bat`: GMT script to map the Moho depths obtained by [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005)  (Figure 12b).
 - `results/figure12c_map_GMT_scripts/c_map.bat`: GMT script to map the comparison of the reference Moho depths with the estimated values (Figure 12c).
-- `results/figure12d_map_R_scripts/ReadData_Cal_Differences.R`: R script to plot histogram of the difference between the reference and the estimated Moho depths
+- `results/figure12d_map_R_scripts/ReadData_Cal_Differences.R`: R script to plot histogram of the differences between the reference and the estimated Moho depths
    (Figure 12d).
   
  ## Reproducibility Note  
