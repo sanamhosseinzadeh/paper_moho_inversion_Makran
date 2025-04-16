@@ -2,8 +2,7 @@ set lon_min_ext=53
 set lon_max_ext=66
 set lat_min_ext=23
 set lat_max_ext=30
-set lon_av=59.5
-set lat_av=26.5
+
 set lon_min=53
 set lon_max=66
 set lat_min=23
@@ -23,7 +22,6 @@ set r1=-R%lon_min%/%lat_min%/%lon_max%/%lat_max%r
 set r=-Rd%lon_min_ext%/%lat_min_ext%/%lon_max_ext%/%lat_max_ext%r
 set s=-JM3.9
 set scalpos=-D4.2/1.15/2.3/0.3c
-
 
 blockmean f.txt %i% %r1% -h1 -V > scratch
 surface scratch -Gf.grd %i% %r1% -Lud -T0.3 -Lld -V -h1
