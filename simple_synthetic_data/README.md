@@ -5,7 +5,7 @@ The materials are organized into subfolders for forward modeling and inversion.
 Each folder is self-contained, with the corresponding data, scripts, and results provided for transparency and reproducibility.
 All resulting figures are saved in their respective folder for direct access.
 
-### forward/  
+## forward/  
 This folder contains the scripts, data, results, and figures related to the forward gravity modeling process.
 
 - `data/Simple_Moho_Model.csv`: Input file defining the simple synthetic Moho model.  
@@ -15,7 +15,19 @@ Note: The script contains paths that must be updated to match your system before
 - `figures_GMT_scripts/figure3a_map_Simple_Moho_Model/a_map.bat`: GMT script to map the simple synthetic Moho model (Figure 3a).  
 - `figures_GMT_scripts/figure3a_map_Simple_Moho_Model/b_map.bat`: GMT script to map the simple synthetic gravity data (Figure 3b).  
 
-### inversion/  
+### Usage
+1- run `R_scripts/Forward.R`
+- **Input:** `data/Simple_Moho_Model.csv`
+- **Output:** `data/Simple_Synthetic_Data.csv`
+
+2- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/a_map.bat`
+  - **Input:** `a.txt` that is the txt file of `data/Simple_Moho_Model.csv`
+
+
+3- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/b_map.bat`
+   - **Input:** `b.txt` that is the txt file of `data/Simple_Synthetic_Data.csv`
+   - 
+## inversion/  
 This folder contains the scripts, data, results, and figures related to the inversion process using the hybrid DE/PSO metaheuristic algorithm.
 
 - `data/Simple_Moho_Model.csv`: Input file defining the simple synthetic Moho model.  
