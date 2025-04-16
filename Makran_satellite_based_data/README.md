@@ -18,7 +18,7 @@ This folder contains the scripts, data, results, and figures related to the inve
 - `data/Model_Coordinates.csv`: Input file defining the coordinates of the unknown Moho model.  
 - `data/SatCBA.csv`: Input file defining the satellite-based Bouguer gravity anomalies.
 - `data/figure9a_map_GMT_scripts/a_map`: GMT script to map the Bouguer gravity anomalies (Figure 9a) 
-- `R_scripts/Inversion_Hybrid_Main_Code.R`: Main R script to perform the inversion and save results in the `Log/` folder.  
+- `R_scripts/Inversion_Hybrid_Main_Code.R`: Main R script to perform the inversion and save results in the `log/` folder.  
 Note: The script contains paths that must be updated to match your system before running.  
 - `results/log/P150it5tmax300.log`, `run1.RData`, `P150it5tmax300.pdf`: Output files from the inversion.
 - `results/figure9b_map_GMT_scripts/b_map.bat`: GMT script to map the estimated Moho depths (Figure 9b).  
