@@ -9,9 +9,6 @@ set lon_max2=65.5
 set lat_min2=23.5
 set lat_max2=29.5
 
-set lon_av=59.5
-set lat_av=26.5
-
 set psfile=a.ps
 
 # Set GMT settings
