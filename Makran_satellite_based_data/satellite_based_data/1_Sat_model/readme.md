@@ -29,7 +29,7 @@ This processes a satellite-derived geopotential model to prepare it for geophysi
 
 ## Usage
 ```Bashscriptt
-run('extract_model.bat')```
+run('extract_model.bat')
 
 
 ### 2. `WGS84_coefficient_correction.m`
@@ -39,4 +39,4 @@ run('extract_model.bat')```
 - **Output:** `Sat_M_corrected.dat` Corrected zonal harmonic coefficients representing the anomaly field.
 - **Usage:**
 ```matlab
-run('WGS84_coefficient_correction.m')```
+run('WGS84_coefficient_correction.m')
