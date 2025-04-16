@@ -17,7 +17,7 @@ Note: The script contains paths that must be updated to match your system before
 ### Usage
 1- run `R_scripts/Forward.R`
 - **Input:** `data/CRUST1_Moho_Model.csv`
-- **Output:** `CRUST1_NSynthetic_Data.csv`
+- **Output:** `data/CRUST1_NSynthetic_Data.csv`
 
 2- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/a_map.bat`
   - **Input:** `a.txt` that is the txt file of `data/CRUST1_Moho_Model.csv`
@@ -45,7 +45,7 @@ Note: Open the `run1.RData` file first, then run this script. It uses the saved 
 
 ### Usage
 1- run `R_scripts/Inversion_Hybrid_Main_Code.R`
-- **Input:** `CRUST1_NSynthetic_Data.csv`,`data/CRUST1_Moho_Model.csv` 
+- **Input:** `data/CRUST1_NSynthetic_Data.csv`,`data/CRUST1_Moho_Model.csv` 
 - **Output:** log folder including `.log`, `.RData`, and `.pdf` files. `.RData` saves all inversion results.
 
 2- run `results/output_files_R_scripts/Output_Files_R_scripts.R`
