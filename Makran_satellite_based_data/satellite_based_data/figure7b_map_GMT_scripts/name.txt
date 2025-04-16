@@ -1,0 +1,29 @@
+53.2 29.7 8 315  1 1 Main Zagros Thrust
+53.5 28.9 8 315  1 1 (MZT)
+#63.5 26.7 8 0 1 1 PAKISTAN
+61.9 29.7 6 0  1 1 Helmand Block 
+58.8 29.8 8 330  1 1  Lut
+#58.3 29.7 8 330  1 1  Block
+58.6 29.5 8 330  1 1  Block
+60.15 29.9 7 290  1 1 Sistan 
+#59.85 29.9 6 290  1 1 Suture
+59.85 29.8 6 290  1 1 Suture
+58 27.7 6 340  1 1 Jaz Murian 
+#57.8 27.5 6 340  1 1 Depression
+57.9 27.4 6 340  1 1 Depression
+57.4 27.15 5.5 280  1 1 Minab Fault  
+61.5 23.2 11 0  1 1 Oman Sea
+57.9 26 10 0  1 1 Makran Accretionary Wedge
+63 28 6 0  1 1 Hamun-Mashkel 
+63 27.7 6 0  1 1 Depression
+59.6 27.8 7 330  1 1 Bazman
+#60.8 28.4 7 330  1 1 Taftan
+60.6 28.5 7 330  1 1 Taftan
+62.2 29  7 330  1 1 Sultan
+63.5 29.2 7 10  1 1 Chagai Hills 
+60 23.9 8 0  1 1 Makran Deformation Front
+55.7 26.1  7 40  1 1 Strait of 
+56.6 26.7 7 290  1 1 Hormuz
+
+ 
+

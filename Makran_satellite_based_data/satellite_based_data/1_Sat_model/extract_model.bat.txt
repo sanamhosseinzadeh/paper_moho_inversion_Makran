@@ -1,0 +1,2 @@
+awk "{ if ($1=="gfct")  print $1, $2, $3, $4, $5, $6, $7}"  GO_CONS_GCF_2_TIM_R6.gfc > Sat_M.dat 
+pause
