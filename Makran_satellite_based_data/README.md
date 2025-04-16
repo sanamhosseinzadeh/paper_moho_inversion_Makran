@@ -1,6 +1,6 @@
 # Folder Structure and File Descriptions
 
-This folder contains the datasets and software codes used in the section titled "Moho Depth in the Makran Zone, SE Iran" of the paper. 
+This folder contains the datasets and software codes used in the section titled **Moho Depth in the Makran Zone, SE Iran** of the paper. 
 The materials are organized into subfolders for satellite_based_data and inversion. 
 Each folder is self-contained, with the corresponding data, scripts, and results provided for transparency and reproducibility.
 All resulting figures are saved in their respective folder for easy access.
