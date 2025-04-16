@@ -32,7 +32,7 @@ This folder contains the scripts, data, results, and figures related to the inve
 
 - `data/Simple_Moho_Model.csv`: Input file defining the simple synthetic Moho model.  
 - `data/Simple_Synthetic_Data.csv`: Input file defining the synthetic gravity data.  
-- `R_scripts/Inversion_Hybrid_Main_Code.R`: Main R script to perform the inversion and save results in the `Log/` folder.  
+- `R_scripts/Inversion_Hybrid_Main_Code.R`: Main R script to perform the inversion and save results in the `log/` folder.  
 Note: The script contains paths that must be updated to match your system before running.  
 - `results/log/P150it5tmax300.log`, `run1.RData`, `P150it5tmax300.pdf`: Output files from the inversion.  
 - `results/figure3c_map_GMT_scripts/c_map.bat`: GMT script to map the estimated Moho depths (Figure 3c).  
