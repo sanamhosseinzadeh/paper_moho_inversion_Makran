@@ -9,9 +9,6 @@ set lon_max2=65.5
 set lat_min2=23.5
 set lat_max2=29.5
 
-set lon_av=59.5
-set lat_av=26.5
-
 set psfile=c.ps
 
 # Set GMT settings
@@ -30,9 +27,6 @@ set scalpos=-D4.2/1.15/2.3/0.3c
 
 # Use xyz2grd to create a.grd
 xyz2grd c.txt  %i2% -V %r2% -Gc.grd
-
-# Use grd2cpt to create c.cpt
-rem grd2cpt c.grd -V %r2% -Cjet -Z > c.cpt
 
 # Plot map
 grdimage c.grd %s% %r% -Cc.cpt -K -P -V -B1g1WNes:.c: > %psfile%
