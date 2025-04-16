@@ -13,13 +13,8 @@ This processes a satellite-derived geopotential model to prepare it for geophysi
 **Geopotential model used:**
 
 > **GO_CONS_GCF_2_TIM_R6**  
-> The 6th release of the GOCE gravity field model derived using the time-wise approach.
-
-**Citation:**
-
-> Brockmann, J. M.; Schubert, T.; Mayer-Gürr, T.; Schuh, W.-D. (2019):  
-> *The Earth's gravity field as seen by the GOCE satellite – an improved sixth release derived with the time-wise approach*.  
-> GFZ Data Services. [https://doi.org/10.5880/ICGEM.2019.003](https://doi.org/10.5880/ICGEM.2019.003)
+> The 6th release of the GOCE gravity field model derived using the time-wise approach [Brockmann et al. (2019)](https://doi.org/10.5880/ICGEM.2019.003). 
+ GFZ Data Services: [https://doi.org/10.5880/ICGEM.2019.003](https://doi.org/10.5880/ICGEM.2019.003)
 
 ---
 
