@@ -87,7 +87,7 @@ If you plan to run the GMT scripts, make sure that GMT is correctly set up in yo
 [https://www.generic-mapping-tools.org/download/]
 
 
-## Citations
+### Citations
 
 - R Core Team (2022). *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing, Vienna, Austria. [https://www.R-project.org/](https://www.R-project.org/)
 
