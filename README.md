@@ -46,7 +46,7 @@ This repository is organized into four main folders:
 - `Makran_satellite_based_data/` (Section *Moho Depth in the Makran Zone, SE Iran*)
 - `study_area_map_GMT_scripts/` map of the study area, Makran, SE Iran (Figure 1).
 
-Each folder includes relevant subfolders, data, scripts, and a README file that describes its structure and usage.
+Each folder includes relevant subfolders, data, scripts, and a `README,md` file that describes its structure and usage.
 
 ---
 
