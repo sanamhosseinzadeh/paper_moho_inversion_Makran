@@ -3,13 +3,9 @@
 **Author:** P. Vanicek, E. Rakowsky  
 **Publication:** *Geodesy: The Concepts*, Elsevier, Amsterdam, Netherlands, 1986.
 
----
-
 ## Overview
 
 This folder contains MATLAB scripts to compute the **Free-Air Anomaly (FAA)** from a satellite-derived geopotential model. 
-
----
 
 ## Files and Scripts
 
