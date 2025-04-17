@@ -1,4 +1,4 @@
-# Gravity Field Processing with GOCE TIM R6 and WGS84 Correction
+# Satellite-Based Gravity Data Processing with GOCE TIM R6 and WGS84 Correction
 
 This processes a satellite-derived geopotential model to prepare it for geophysical analysis by:
 
