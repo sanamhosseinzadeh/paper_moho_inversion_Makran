@@ -1,6 +1,6 @@
 # Folder Structure and File Descriptions
 
-This folder contains the datasets, R scripts, and GMT codes used in the section titled  **CRUST1.0 Synthetic Data** of the paper. 
+This folder contains the datasets, R scripts, and GMT codes used in the section titled  **CRUST1.0 Synthetic Data** of the manuscript. 
 The materials are organized into subfolders for forward modeling and inversion. 
 Each folder is self-contained, with the corresponding data, scripts, and results provided for transparency and reproducibility.
 All resulting figures are saved in their respective folder for easy access.
@@ -49,7 +49,7 @@ Note: Open the `run1.RData` file first, then run this script. It uses the saved 
 - **Output:** log folder including `.log`, `.RData`, and `.pdf` files. `.RData` saves all inversion results.
 
 2- run `results/output_files_R_scripts/Output_Files_R_scripts.R`
-  
+
 Note: Open the output `.RData` workspace file before running
 - **Output:** `Caculated_Data.csv`, `Data_Residuals.csv`, `Estimated_Moho_Depths.csv`, and `Moho_Depth_Residuals.csv`
 
@@ -60,7 +60,7 @@ Note: Open the output `.RData` workspace file before running
 - **Input:** `d.txt` that is the txt file of `Caculated_Data.csv`.
 
 5- run `results/figure5e_map_GMT_scripts/e_map.bat`
-- **Input:** `e.txt` that is the txt file of `Moho_Depth_Residuals.csv`
+- **Input:** `e.txt` that is the txt file of `Moho_Depth_Residuals.csv`.
 
 6- run `results/figure5f_map_GMT_scripts/f_map.bat`
 - **Input:** `f.txt` that is the txt file of `Data_Residuals.csv`.
