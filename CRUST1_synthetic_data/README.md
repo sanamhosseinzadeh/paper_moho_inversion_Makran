@@ -49,7 +49,7 @@ Note: Open the `run1.RData` file first, then run this script. It uses the saved 
 - **Output:** log folder including `.log`, `.RData`, and `.pdf` files. `.RData` saves all inversion results.
 
 2- run `results/output_files_R_scripts/Output_Files_R_scripts.R`
-  
+
 Note: Open the output `.RData` workspace file before running
 - **Output:** `Caculated_Data.csv`, `Data_Residuals.csv`, `Estimated_Moho_Depths.csv`, and `Moho_Depth_Residuals.csv`
 
