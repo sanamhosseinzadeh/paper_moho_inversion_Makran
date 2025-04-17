@@ -6,7 +6,7 @@
 
 The tool takes as input a digital elevation model (topography) and gravity anomaly data, processes topographic corrections in concentric zones (near, intermediate, and distant), and produces both the fully corrected Bouguer anomaly and the slab-corrected anomaly.
 
-## Files 
+## Files and Scripts
 
 ### Source Code
 - `fa2boug.f90` – Main FORTRAN 90 program
