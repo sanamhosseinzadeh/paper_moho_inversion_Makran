@@ -51,37 +51,46 @@ Note: Open the output `.RData` workspace file before running
 - **Output:** `Caculated_Data.csv`, `Data_Residuals.csv`, and `Estimated_Moho_Depths.csv`
 
 3-  run `results/figure8_plot_R_scripts/ReadData_MSE_Plot`  
-   - **Input:** `.csv` files in `results/figure11_plot_R_scripts/ReadData_MSE_Plot/H_Ro_Results/` (named as `Result_h0_Δρ.csv`)  
+- **Input:** `.csv` files in `results/figure11_plot_R_scripts/ReadData_MSE_Plot/H_Ro_Results/` (named as `Result_h0_Δρ.csv`)  
    and`Moho_Makran_2018_1deg.txt` from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005)
+- **Output:** `Figure8_plot.tiff`
 
 4- run `data/figure9a_map_GMT_scripts/a_map`
 - **Input:** `a.txt` that is the txt file of `SatCBA.csv`.
+- **Output:** `a.png`
 
 5- run `results/figure9b_map_GMT_scripts/b_map.bat` 
 - **Input:** `b.txt` that is the txt file of `Estimated_Moho_Depths.csv`.
+- **Output:** `b.png`
 
 6- run `results/figure9c_map_GMT_scripts/c_map.bat`
 - **Input:** `c.txt` that is the txt file of `Caculated_Data.csv`.
+- **Output:** `c.png`
 
 7- run `results/figure9d_map_GMT_scripts/d_map.bat`
 - **Input:** `d.txt` that is the txt file of `Data_Residuals.csv`.
+- **Output:** `d.png`
 
 8- run `results/figure10_plots_R_scripts/Figure10_Plots_R_scripts.R`  
+- **Output:** `Figure10_plot.tiff`
 
 Note: Open the output `.RData` workspace file before running
 
 9- run `results/figure11a_map_GMT_scripts/a_map.bat`
 - **Input:** `a.txt` that is the txt file of `Estimated_Moho_Depths.csv`.
+- **Output:** `a.png`
 
 10- run `results/figure11b_map_GMT_scripts/b_map.bat` 
 - **Input:** `Moho_Makran_2018_1deg.txt` that is the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005). 
+- **Output:** `b.png`
 
 11- run `results/figure11d_map_R_scripts/ReadData_Cal_Differences.R`
 - **Input:** `Moho_Makran_2018_1deg.txt`, `Result_35_500.csv` to calculate the differences between the reference -the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005)- and our estimated Moho depths. Then the script plots the histogram of Moho depth differences.
-  
+- **Output:** `Figure11d_plot.tiff`, `resid.csv`
+
 12- run `results/figure11c_map_GMT_scripts/c_map.bat`
 - **Input:** `resid.txt` that is the txt file of `resid.csv` containing the differences between the reference (the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005) and our estimated Moho depths.
-
+- **Output:** `c.png`
 
  ## Reproducibility Note  
 
