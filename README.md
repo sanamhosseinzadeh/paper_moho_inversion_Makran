@@ -34,9 +34,7 @@ The hybrid approach employed in the present study is called DE/PSO and combines 
 
 ![The estimated Moho depth for Makran, Iran using satellite-based gravity data]()
 
-> Dotted lines represent the boundaries between major geologic provinces. AD: Andean Province, AFB: Andean foreland basins, AM: Amazonas Basin, BR: Brazilian Shield, BO: Borborema province, CH: Chaco Basin, GB: Guyana Basin, GU: Guyana Shield, PB: Parnaíba Basin, PC: Parecis Basin, PR: Paraná Basin, PT: Patagonia province, SF: São Francisco Craton, SM: Solimões Basin.
-> Solid orange lines mark the limits of the main lithospheric plates. AF: Africa Plate, AN: Antarctica Plate, CA: Caribbean Plate, CO: Cocos Plate, SA: South America Plate, SC: Scotia Plate, NZ: Nazca Plate.
-> The solid light grey line is the 35 km Moho depth contour.
+>The main structures are labeled as follows: Main Zagros Thrust (MZT), Minab Fault (MF), Makran Accretionary Wedge (MAW), Makran Deformation Front (MDF), Oman Sea (OS), Strait of Hormuz (SH), Jaz Murian Depression (JMD), Hamun-Mashkel > Depression (HMD), Bazman (B), Taftan (T), Sultan (S), Lut Block (LB), Helmand Block (HB).
 
 ---
 ## Repository Contents
