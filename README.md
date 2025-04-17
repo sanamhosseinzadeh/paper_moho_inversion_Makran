@@ -17,13 +17,13 @@ As a result, alternative approaches like gravity inversion are essential for Moh
 method that combines Differential Evolution (DE) and Particle Swarm Optimization (PSO). This approach is suitable for solving high-dimensional and complex gravity inverse problems,ensuring both accuracy
 and computational efficiency. In the forward modeling, Bouguer gravity anomalies are attributed to an anomalous mass with a constant density between a flat reference Moho and the undulating Moho surface.
 Rectangular prisms in a Cartesian framework are employed to compute the gravitational field of this mass. Validation on synthetic data shows that the method effectively recovers smoothly changing Moho 
-topographies.Application of the algorithm to the Makran region, using satellite-derived Bouguer anomalies, reveals the Moho depths:  19–30 km beneath the Oman Sea, 30–40 km in the Makran fore-arc, and 
+topographies. Application of the algorithm to the Makran region, using satellite-derived Bouguer anomalies, reveals the Moho depths:  19–30 km beneath the Oman Sea, 30–40 km in the Makran fore-arc, and 
 40–45 km over the Taftan-Bazman volcanic arc.
 
 ---
 
 ## Gravitational Forward Modeling
-The forward modeling is based on rectangular prism formulations referred to [Snopek and Casten (2006)](https://doi.org/10.1016/j.cageo.2005.08.008); [Prutkin and Saleh (2009)](https://doi.org/10.1016/j.jog.2008.12.001).
+The forward modeling is based on rectangular prism formulations as described by [Snopek and Casten (2006)](https://doi.org/10.1016/j.cageo.2005.08.008) and [Prutkin and Saleh (2009)](https://doi.org/10.1016/j.jog.2008.12.001).
 
 ---
 
@@ -54,7 +54,7 @@ Each folder includes relevant subfolders, data, scripts, and a README file that 
 ### R Programming Language
 
 This work uses **R version 4.2.0** (released April 2022).
-To run the analysis, you need to set up the R environment and install the necessary packages. Follow the steps below to get started.
+To run the analysis, first set up the R environment and install the necessary packages. Follow the steps below to get started.
 
 ### 1. Install R
 
@@ -63,20 +63,19 @@ If you don't have R installed, download and install the latest version of R from
 
 ### 2. Install Required R Packages
 
-The analysis scripts depend on several R packages. To install these packages, open R or RStudio and run the following command:
-The "NMOF" and "logr" packages shold be installed
+The "NMOF" and "logr" packages should be installed. To install these packages, open R or RStudio and run the following commands:
 
 ```r
 install.packages("NMOF")
 install.packages("logr")
 ```
-To ensure the necessary R packages are installed and functioning, you can use the following command and try loading the Package
+To ensure the necessary R packages are installed and functioning, run the following commands to load the package:
 
 ```r
 library(NMOF)
 library(logr)
 ```
-If the package is not installed or there is a loading issue, an error will appear.
+If the package is not installed or there is an issue loading it, R will display an error message.
 
 ### GMT For Mapping
 
