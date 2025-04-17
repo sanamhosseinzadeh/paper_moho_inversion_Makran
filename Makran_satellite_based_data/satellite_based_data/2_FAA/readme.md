@@ -13,11 +13,11 @@ This folder contains MATLAB scripts to compute the **Free-Air Anomaly (FAA)** fr
 
 ## Files and Scripts
 
-`FAA_cal.m` & `Pnm_normalise.m`:  MATLAB scripts to compute the free-air Anomaly from a satellite-derived geopotential model. Calculates the free-air Anomaly at a given location (latitude, longitude) based on spherical harmonic synthesis.
+`FAA_cal.m` & `Pnm_normalise.m`:  MATLAB scripts to compute the free-air anomaly from a satellite-derived geopotential model. Calculates the free-air anomaly at a given location (latitude, longitude) based on spherical harmonic synthesis.
 
 - **Inputs:**
   - File `Sat_M_corrected.dat` includes degree and order: `n,m` and spherical harmonic coefficients: `Cnm`, `Snm` (fully normalized)
-   - Geographic coordinates: latitude, longitude
+  - Geographic coordinates: latitude, longitude
   - Ellipsoidal height or radial distance
 
 
