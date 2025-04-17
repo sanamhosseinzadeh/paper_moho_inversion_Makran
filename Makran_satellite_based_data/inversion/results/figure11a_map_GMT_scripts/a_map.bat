@@ -8,7 +8,7 @@ set lon_max=66
 set lat_min=23
 set lat_max=30
 
-set psfile=a.ps
+set psfile=a1.ps
 
 gmtset PROJ_LENGTH_UNIT i
 gmtset FONT_LABEL 12 FONT_TITLE 14
@@ -36,6 +36,7 @@ grdview a.grd %s% %r% -Ca.cpt -Qi -X2 -Y7 -P -K -V > %psfile%
  psxy mountain.txt %r% %s% -W0.2/0/0/0 -G0/0/0  -St0.05 -O -V -K >>  %psfile%
 
 pscoast %r% %s% -A1000 -Dh -I1/1p,blue -O -K -W1p -B1WNes:.a: >> %psfile%
+rem pscoast %r% %s% -A1000 -Dh -I1/1p,blue -O -K -W1p -B1WNes:: >> %psfile%
 
 gmtset MAP_LABEL_OFFSET 3p MAP_ANNOT_OFFSET_PRIMARY 2p
 psscale %scalpos% -Ca.cpt -Ba5::/:km: -O -E -I >> %psfile%
