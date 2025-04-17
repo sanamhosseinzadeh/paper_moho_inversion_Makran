@@ -20,11 +20,11 @@ Note: The script contains paths that must be updated to match your system before
 - **Output:** `data/CRUST1_NSynthetic_Data.csv`
 
 2- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/a_map.bat`
-  - **Input:** `a.txt` that is the txt file of `data/CRUST1_Moho_Model.csv`
+  - **Input:** `a.txt` that is the txt file of `data/CRUST1_Moho_Model.csv`.
 
 
 3- run `figures_GMT_scripts/figure5a_map_Simple_Moho_Model/b_map.bat`
-   - **Input:** `b.txt` that is the txt file of `CRUST1_NSynthetic_Data.csv`
+   - **Input:** `b.txt` that is the txt file of `CRUST1_NSynthetic_Data.csv`.
 
 ## inversion/  
 This folder contains the scripts, data, results, and figures related to the inversion process using the hybrid DE/PSO metaheuristic algorithm.
@@ -54,16 +54,16 @@ Note: Open the output `.RData` workspace file before running
 - **Output:** `Caculated_Data.csv`, `Data_Residuals.csv`, `Estimated_Moho_Depths.csv`, and `Moho_Depth_Residuals.csv`
 
 3- run `results/figure5c_map_GMT_scripts/c_map.bat`
-- **Input:** `c.txt` that is the txt file of `Estimated_Moho_Depths.csv`
+- **Input:** `c.txt` that is the txt file of `Estimated_Moho_Depths.csv`.
 
 4- run `results/figure5d_map_GMT_scripts/d_map.bat`
-- **Input:** `d.txt` that is the txt file of `Caculated_Data.csv`
+- **Input:** `d.txt` that is the txt file of `Caculated_Data.csv`.
 
 5- run `results/figure5e_map_GMT_scripts/e_map.bat`
-- **Input:** `e.txt` that is the txt file of `Moho_Depth_Residuals.csv`
+- **Input:** `e.txt` that is the txt file of `Moho_Depth_Residuals.csv`.
 
 6- run `results/figure5f_map_GMT_scripts/f_map.bat`
-- **Input:** `f.txt` that is the txt file of `Data_Residuals.csv`
+- **Input:** `f.txt` that is the txt file of `Data_Residuals.csv`.
 
 7- run `results/figure6_plots_R_scripts/Figure6_Plots_R_scripts.R`
 
