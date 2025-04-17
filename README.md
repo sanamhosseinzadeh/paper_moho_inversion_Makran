@@ -32,9 +32,9 @@ The hybrid approach employed in the present study is called DE/PSO and combines 
 
 ---
 
-![The estimated Moho depth for Makran, Iran using satellite-based gravity data]()
+![The estimated Moho depth for Makran, Iran using satellite-based gravity data](Makran_satellite_based_data/inversion/results/figure11a_map_GMT_scripts/a1.png)
 
->The main structures are labeled as follows: Main Zagros Thrust (MZT), Minab Fault (MF), Makran Accretionary Wedge (MAW), Makran Deformation Front (MDF), Oman Sea (OS), Strait of Hormuz (SH), Jaz Murian Depression (JMD), Hamun-Mashkel > Depression (HMD), Bazman (B), Taftan (T), Sultan (S), Lut Block (LB), Helmand Block (HB).
+>The estimated Moho depth for Makran, Iran using satellite-based gravity data. The main structures are labeled as follows: Main Zagros Thrust (MZT), Minab Fault (MF), Makran Accretionary Wedge (MAW), Makran Deformation Front (MDF), Oman Sea (OS), Strait of Hormuz (SH), Jaz Murian Depression (JMD), Hamun-Mashkel > Depression (HMD), Bazman (B), Taftan (T), Sultan (S), Lut Block (LB), Helmand Block (HB).
 
 ---
 ## Repository Contents
@@ -87,10 +87,17 @@ If you plan to run the GMT scripts, make sure that GMT is correctly set up in yo
 [https://www.generic-mapping-tools.org/download/]
 
 
-### Citations
+## Citations
 
 - R Core Team (2022). *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing, Vienna, Austria. [https://www.R-project.org/](https://www.R-project.org/)
 
 - Gilli, M., Maringer, D., & Schumann, E. (2019). *Numerical Methods and Optimization in Finance*. Academic Press. [https://CRAN.R-project.org/package=NMOF](https://CRAN.R-project.org/package=NMOF)
 
 - Bosak, D. (2022). *logr: Creates Log Files*. R package version 1.3.2. [https://CRAN.R-project.org/package=logr](https://CRAN.R-project.org/package=logr)
+
+---
+
+##  License
+The source code is released under the MIT License, allowing you to freely use, modify, and distribute the code. Attribution to the original authors must be provided. For complete license details, refer to the `LICENSE.md` file.
+
+The manuscript is ready for submission and will be open to modifications and revisions as part of the submission process.
