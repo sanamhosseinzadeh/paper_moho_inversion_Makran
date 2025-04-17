@@ -6,8 +6,6 @@
 
 The tool takes as input a digital elevation model (topography) and gravity anomaly data, processes topographic corrections in concentric zones (near, intermediate, and distant), and produces both the fully corrected Bouguer anomaly and the slab-corrected anomaly.
 
----
-
 ## Files Included
 
 ### Source Code
@@ -42,7 +40,8 @@ The main settings and computation parameters are defined in the `parameters.dat`
 
 ---
 
-## Parameters (`parameters.dat`)
+## Parameters 
+`parameters.dat`
 
 ```plaintext
 det            ! (0 or 1) - Use detailed topography (1 = yes, 0 = no)
@@ -57,8 +56,6 @@ Ndet, Mdet     ! Grid size of detailed topography (only if det = 1)
 d_xdet         ! Grid step of detailed topography (only if det = 1)
 ```
 
----
-
 ## Input Format
 
 - Files `topo_cart.xyz` and `gravi_cart.xyz` must be:
@@ -71,9 +68,7 @@ d_xdet         ! Grid step of detailed topography (only if det = 1)
   - Must fully cover a region extended by `R_i` around the output grid
   - Recommended to set flat regions as `NaN` to save computation time
 
----
-
-## Output Files
+## Output Format
 
 - `bouguer_slab.xyz`: Slab-corrected anomaly (Bullard A only)
 - `bouguer.xyz`: Fully corrected Bouguer anomaly (Bullard A–C) in Cartesian coordinates ==> Finally extract the complete Bouguer anomaly (CBS) for the region in the `CBA.xyz` file. 
