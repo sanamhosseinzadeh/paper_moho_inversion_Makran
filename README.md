@@ -12,13 +12,7 @@
 ---
 ## Abstract
 
-The Makran Subduction Zone (MSZ) has sparse seismic activity, limited accessibility, and insufficient seismic coverage, making traditional seismic methods less effective for estimating Moho depth. 
-As a result, alternative approaches like gravity inversion are essential for Moho modeling in this region. This study utilizes gravity anomalies to model the Moho depth, employing a hybrid inversion
-method that combines Differential Evolution (DE) and Particle Swarm Optimization (PSO). This approach is suitable for solving high-dimensional and complex gravity inverse problems,ensuring both accuracy
-and computational efficiency. In the forward modeling, Bouguer gravity anomalies are attributed to an anomalous mass with a constant density between a flat reference Moho and the undulating Moho surface.
-Rectangular prisms in a Cartesian framework are employed to compute the gravitational field of this mass. Validation on synthetic data shows that the method effectively recovers smoothly changing Moho 
-topographies. Application of the algorithm to the Makran region, using satellite-derived Bouguer anomalies, reveals the Moho depths:  19–30 km beneath the Oman Sea, 30–40 km in the Makran fore-arc, and 
-40–45 km over the Taftan-Bazman volcanic arc.
+The Makran Subduction Zone (MSZ) has sparse seismic activity, limited accessibility, and insufficient seismic coverage, making traditional seismic methods less effective for estimating Moho depth. As a result, alternative approaches like gravity inversion are essential for Moho modeling in this region. This study utilizes gravity anomalies to model the Moho depth, employing a hybrid inversion method that combines Differential Evolution (DE) and Particle Swarm Optimization (PSO). This approach is suitable for solving high-dimensional and complex gravity inverse problems, ensuring both accuracy and computational efficiency. In the forward modeling, Bouguer gravity anomalies are attributed to an anomalous mass with a constant density between a flat reference Moho and the undulating Moho surface. Rectangular prisms in a Cartesian framework are employed to compute the gravitational field of this mass. Validation on synthetic data shows that the method effectively recovers smoothly changing Moho  topographies. Application of the algorithm to the Makran region, using satellite-derived Bouguer anomalies, reveals the Moho depths:  19–30 km beneath the Oman Sea, 30–40 km in the Makran fore-arc, and 40–45 km over the Taftan-Bazman volcanic arc.
 
 ---
 
