@@ -6,8 +6,6 @@ This processes a satellite-derived geopotential model to prepare it for geophysi
 2. **Correcting** the zonal terms of the model by removing the contribution of the WGS84 normal gravity field (ellipsoid).
 3. Preparing the corrected coefficients for further use in Free-air gravity anomaly.
 
----
-
 ## Data Source
 
 **Geopotential model used:**
