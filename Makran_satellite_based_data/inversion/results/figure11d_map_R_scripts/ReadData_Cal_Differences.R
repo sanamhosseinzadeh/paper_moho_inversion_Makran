@@ -19,7 +19,7 @@ z_2018 <- ordered_data$z_201
 
 difference <- z_2018 - Result
 
-tiff(file = file.path(dir,"Figure12d_plot.tiff"), 
+tiff(file = file.path(dir,"Figure11d_plot.tiff"), 
 width = 4000, height = 4000, units = "px", res = 800)
 
 h <- hist(difference , plot=F, breaks = seq(-15,15,length.out = 11))

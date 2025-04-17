@@ -23,7 +23,7 @@ set r=-Rd%lon_min_ext%/%lat_min_ext%/%lon_max_ext%/%lat_max_ext%r
 set s=-JM3.9
 set scalpos=-D4.2/1.15/2.3/0.3c
 
-blockmean ObservedBA.txt %i% %r1% -h1 -V > scratch
+blockmean a.txt %i% %r1% -h1 -V > scratch
 surface scratch -Ga.grd %i% %r1% -Lud -T0.3 -Lld -V -h1
 makecpt -Cjet -T-300/250/50 -Z > a.cpt
 grdview a.grd %s% %r1% -Ca.cpt -Qi -X2 -Y7 -K -P -V > %psfile%

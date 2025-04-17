@@ -138,7 +138,7 @@ library(sp)
 
 raster_df <- rasterFromXYZ(as.matrix(results_df[, c("h", "Ro", "mse")]))
 
-tiff(file = file.path(Wdir,"Figure11_plot.tiff"), width = 4500, height = 4000, units = "px", res = 800)
+tiff(file = file.path(Wdir,"Figure8_plot.tiff"), width = 4500, height = 4000, units = "px", res = 800)
 
 par(mar = c(5, 6, 2, 2) + 0.1)
 
