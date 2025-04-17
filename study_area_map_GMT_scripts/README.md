@@ -1,5 +1,11 @@
-Data Source
-Geopotential model used:
+This folder includes files to map the study area Makran, SE Iran (Figure 1)
 
-GO_CONS_GCF_2_TIM_R6
-The 6th release of the GOCE gravity field model derived using the time-wise approach Brockmann et al. (2019). GFZ Data Services: https://doi.org/10.5880/ICGEM.2019.003
+## Data Source
+> The topography data are from the ETOPO1 model [http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1].  
+
+---
+
+### Usage
+run `study_area_map_GMT_scripts/Figure1_map.bat`
+- **Input:** `study_area_map_GMT_scripts/topo.nc`
+- **Output:** `study_area_map_GMT_scripts/Figure1.png`, `study_area_map_GMT_scripts/Figure1.ps`
