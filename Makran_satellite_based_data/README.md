@@ -77,7 +77,7 @@ Note: Open the output `.RData` workspace file before running
 - **Input:** `Moho_Makran_2018_1deg.txt` that is the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005). 
 
 11- run `results/figure11d_map_R_scripts/ReadData_Cal_Differences.R`
-- **Input:** `Moho_Makran_2018_1deg.txt`, `Result_35_500.csv` to calculate the differences between the reference (the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005) and our estimated Moho depths. Then the script plots the histogram of Moho depth differences.
+- **Input:** `Moho_Makran_2018_1deg.txt`, `Result_35_500.csv` to calculate the differences between the reference -the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005)- and our estimated Moho depths. Then the script plots the histogram of Moho depth differences.
   
 12- run `results/figure11c_map_GMT_scripts/c_map.bat`
 - **Input:** `resid.txt` that is the txt file of `resid.csv` containing the differences between the reference (the previously obtained Moho depths from [Abdollahi et al. (2018)](https://doi.org/10.1016/j.tecto.2018.10.005) and our estimated Moho depths.
