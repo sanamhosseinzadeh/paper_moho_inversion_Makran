@@ -75,7 +75,7 @@ Note: Open the output `.RData` workspace file before running
 
 Note: Open the output `.RData` workspace file before running
 
-## Viewing Saved Variables in `.RData` from the log Folder
+## Viewing Saved Variables in `.RData` from the log Folder 
 
 To view the variables saved in the `.RData` file, you can open the file located in the `log` folder. 
 Use the following command in R to check the saved variables in your workspace:
@@ -91,7 +91,16 @@ This will return:
 [11] "ElapsedTime" "minOF"       "BestPar"     "initDE"      "initPSO"    
 [16] "H"           "SIGMA"    
 ```
-These variables include input data, control parameters, inversion results
+These variables include input data, control parameters, inversion results. Command of each variable returns its content. 
+**Observed**: Contains the observed gravity anomalies used in the inversion process. **Calculated** Stores the calculated gravity anomalies based on the model.
+**minBound**: Represents the minimum boundary of the model parameters.**maxBound**: Represents the maximum boundary of the model parameters.
+**xObs**: The x-coordinates of the observed gravity data. **yObs**: The y-coordinates of the observed gravity data.
+**x**: The x-coordinates of the model grid. **y**: The y-coordinates of the model grid.
+**ControlPar**: The control parameters for the optimization algorithms. **Result**: Contains the final inversion results (Moho depth, rms).
+**ElapsedTime**: The time taken for the inversion process to complete. 
+**minOF**: The minimum objective function (OF) values achieved during the optimization process (Convergency rate of OF). **BestPar**: The best parameters found during the inversion process.
+**initDE**: The initial poulation for the Differential Evolution (DE) algorithm. **initPSO**: The initial settings used for the Particle Swarm Optimization (PSO) algorithm.
+**H**: The value of the the reference Moho depth related to the model. **SIGMA**: The value of density-contrast related to the model.
 
  ## Reproducibility Note
 
