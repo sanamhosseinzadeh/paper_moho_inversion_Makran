@@ -86,7 +86,9 @@ Since no fixed seed was set, running the inversion code multiple times may lead 
 
 The exact figures and values presented in the paper can be reproduced using the provided `.csv`, `.RData`, and output files included in this folder.
 
-## Viewing Saved Variables in `.RData` from the log Folder (This description applies to all `.RData` files in the different folders within the repository)
+## Viewing Saved Variables in `.RData` from the log Folder 
+
+Note: This description applies to all `.RData` files in the different folders within the repository.
 
 To view the variables saved in the `.RData` file, you can open the file located in the `log` folder. 
 Use the following command in R to check the saved variables in your workspace:
