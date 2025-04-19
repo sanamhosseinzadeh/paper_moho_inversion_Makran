@@ -124,17 +124,17 @@ These variables include input data, control parameters, inversion results. Comma
 
 **ControlPar**: The control parameters for the optimization algorithms. 
 
-**Result**: Contains the final inversion results (Moho depth, rms).
+**Result**: Contains the final inversion results (Moho depths, rms).
 
 **ElapsedTime**: The time taken for the inversion process to complete. 
 
-**minOF**: The minimum objective function (OF) values achieved during the optimization process (Convergency rate of OF). 
+**minOF**: The minimum objective function (OF) values achieved throgh the iteration of the optimization process (Convergency rate of OF). 
 
-**BestPar**: The best parameters found during the inversion process.
+**BestPar**: The best parameters found throgh the iteration of the optimization process.
 
 **initDE**: The initial poulation for the Differential Evolution (DE) algorithm. 
 
-**initPSO**: The initial settings used for the Particle Swarm Optimization (PSO) algorithm.
+**initPSO**: The initial poulation for the Particle Swarm Optimization (PSO) algorithm.
 
 **H**: The value of the the reference Moho depth related to the model. 
 
