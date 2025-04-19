@@ -91,6 +91,6 @@ If you plan to run the GMT scripts, make sure that GMT is correctly set up in yo
 ---
 
 ##  License
-The source code is released under the MIT License, allowing you to freely use, modify, and distribute the code. Attribution to the original authors must be provided. For complete license details, refer to the `LICENSE.md` file.
+The source code is released under the MIT License, allowing you to freely use, and modify the code. Attribution to the original authors must be provided. For complete license details, refer to the `LICENSE.md` file.
 
 The manuscript is ready for submission and will be open to modifications and revisions as part of the submission process.
