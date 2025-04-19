@@ -28,7 +28,7 @@ The hybrid approach employed in the present study is called DE/PSO and combines 
 
 ![The estimated Moho depth for Makran, Iran using satellite-based gravity data](Makran_satellite_based_data/inversion/results/figure11a_map_GMT_scripts/a1.png)
 
->The estimated Moho depth for Makran, Iran using satellite-based gravity data. The main structures are labeled as follows: Main Zagros Thrust (MZT), Minab Fault (MF), Makran Accretionary Wedge (MAW), Makran Deformation Front (MDF), Oman Sea (OS), Strait of Hormuz (SH), Jaz Murian Depression (JMD), Hamun-Mashkel Depression (HMD), Bazman (B), Taftan (T), Sultan (S), Lut Block (LB), Helmand Block (HB).
+>The estimated Moho depths for Makran, Iran using satellite-based gravity data. The main structures are labeled as follows: Main Zagros Thrust (MZT), Minab Fault (MF), Makran Accretionary Wedge (MAW), Makran Deformation Front (MDF), Oman Sea (OS), Strait of Hormuz (SH), Jaz Murian Depression (JMD), Hamun-Mashkel Depression (HMD), Bazman (B), Taftan (T), Sultan (S), Lut Block (LB), Helmand Block (HB).
 
 ---
 ## Repository Contents
