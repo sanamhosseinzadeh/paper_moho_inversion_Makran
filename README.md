@@ -31,20 +31,20 @@ The hybrid approach employed in the present study is called DE/PSO and combines 
 >The estimated Moho depths for Makran, Iran using satellite-based gravity data. The main structures are labeled as follows: Main Zagros Thrust (MZT), Minab Fault (MF), Makran Accretionary Wedge (MAW), Makran Deformation Front (MDF), Oman Sea (OS), Strait of Hormuz (SH), Jaz Murian Depression (JMD), Hamun-Mashkel Depression (HMD), Bazman (B), Taftan (T), Sultan (S), Lut Block (LB), Helmand Block (HB).
 
 ---
-## Repository Contents
+## Repository Content
 
 This repository is organized into four main folders:
 
-- `CRUST1_synthetic_data/` (Section *Simple Synthetic Data*)
-- `simple_synthetic_data/`(Section *CRUST1.0 Synthetic Data*)
-- `Makran_satellite_based_data/` (Section *Moho Depth in the Makran Zone, SE Iran*)
+- `CRUST1_synthetic_data/` (Section *Simple Synthetic Data* of the manuscript)
+- `simple_synthetic_data/`(Section *CRUST1.0 Synthetic Data* of the manuscript)
+- `Makran_satellite_based_data/` (Section *Moho Depth in the Makran Zone, SE Iran* of the manuscript)
 - `study_area_map_GMT_scripts/` map of the study area, Makran, SE Iran (Figure 1).
 
 Each folder includes relevant subfolders, data, scripts, and a `README,md` file that describes its structure and usage.
 
 ---
 
-## Setting up your environment
+## Setting up your Environment
 ### R Programming Language
 
 This work uses **R version 4.2.0** (released April 2022).
