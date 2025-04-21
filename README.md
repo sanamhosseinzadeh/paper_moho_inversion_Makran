@@ -80,7 +80,7 @@ If you plan to run the GMT scripts, make sure that GMT is correctly set up in yo
 [https://www.generic-mapping-tools.org/download/]
 
 
-### Citations
+### Refereces
 
 - R Core Team (2022). *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing, Vienna, Austria. [https://www.R-project.org/](https://www.R-project.org/)
 
@@ -90,7 +90,10 @@ If you plan to run the GMT scripts, make sure that GMT is correctly set up in yo
 
 ---
 
-##  License
+##  License and Citation
 The source code is released under the MIT License, allowing you to freely use, and modify the code. Attribution to the original authors must be provided. For complete license details, refer to the `LICENSE.md` file.
+This repository can be cited as follows:
+
+Sanam Hosseinzadeh. (2025). sanamhosseinzadeh/paper_moho_inversion_Makran. Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15257143.svg)](https://doi.org/10.5281/zenodo.15257143)
 
 The manuscript is ready for submission and will be open to modifications and revisions as part of the submission process.
