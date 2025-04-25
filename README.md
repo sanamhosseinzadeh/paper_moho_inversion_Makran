@@ -38,7 +38,7 @@ This repository is organized into four main folders:
 - `CRUST1_synthetic_data/` (Section *Simple Synthetic Data* of the manuscript)
 - `simple_synthetic_data/`(Section *CRUST1.0 Synthetic Data* of the manuscript)
 - `Makran_satellite_based_data/` (Section *Moho Depth in the Makran Zone, SE Iran* of the manuscript)
-- `study_area_map_GMT_scripts/` map of the study area, Makran, SE Iran (Figure 1).
+- `study_area_map_GMT_scripts/` map of the study area, Makran, SE Iran [Figure 1](paper_moho_inversion_Makran/study_area_map_GMT_scripts/Figure1.png).
 
 Each folder includes relevant subfolders, data, scripts, and a `README.md` file that describes its structure and usage.
 
