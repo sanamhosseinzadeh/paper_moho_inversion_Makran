@@ -52,12 +52,12 @@ To run the analysis, first set up the R environment and install the necessary pa
 
 ### 1. Install R
 
-If you don't have R installed, download and install the latest version of R from the official website:  
+If you don't have [R](https://github.com/sanamhosseinzadeh/paper_moho_inversion_Makran/tree/gh-makran-moho?tab=readme-ov-file#refereces) installed, download and install the latest version of R from the official website:  
 [https://cran.r-project.org/](https://cran.r-project.org/)
 
 ### 2. Install Required R Packages
 
-The "NMOF" and "logr" packages should be installed. To install these packages, open R or RStudio and run the following commands:
+The [NMOF](https://github.com/sanamhosseinzadeh/paper_moho_inversion_Makran/tree/gh-makran-moho?tab=readme-ov-file#refereces) and [logr](https://github.com/sanamhosseinzadeh/paper_moho_inversion_Makran/tree/gh-makran-moho?tab=readme-ov-file#refereces) packages should be installed. To install these packages, open R or RStudio and run the following commands:
 
 ```r
 install.packages("NMOF")
