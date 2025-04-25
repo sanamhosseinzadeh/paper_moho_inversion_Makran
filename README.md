@@ -77,7 +77,7 @@ This work also uses **Generic Mapping Tools (GMT)** ([Wessel and Smith, 1995](ht
 If you plan to run the GMT scripts, make sure that GMT is correctly set up in your system's `PATH` so that the script can access it.
 
 **Download and install GMT from the official site:**  
-[https://www.generic-mapping-tools.org/download/]
+https://www.generic-mapping-tools.org/download/
 
 
 ### Refereces
