@@ -73,7 +73,7 @@ If the package is not installed or there is an issue loading it, R will display 
 
 ### GMT For Mapping
 
-This work also uses **Generic Mapping Tools (GMT)** ([Wessel and Smith 1995](https://doi.org/10.1029/95EO00198)) for plotting the study area and gravity anomaly maps.  
+This work also uses **Generic Mapping Tools (GMT)** ([Wessel et al. 2013](https://doi.org/10.1002/2013EO450001)) for plotting the study area and gravity anomaly maps.  
 If you plan to run the GMT scripts, make sure that GMT is correctly set up in your system's `PATH` so that the script can access it.
 
 **Download and install GMT from the official site:**  
