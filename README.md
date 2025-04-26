@@ -94,6 +94,6 @@ https://www.generic-mapping-tools.org/download/
 The source code is released under the MIT License, allowing you to freely use, and modify the code. Attribution to the original authors must be provided. For complete license details, refer to the `LICENSE.md` file.
 This repository can be cited as follows:
 
-Sanam Hosseinzadeh. (2025). sanamhosseinzadeh/paper_moho_inversion_Makran: v1.0.0 (v1.0.0). Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15257143.svg)](https://doi.org/10.5281/zenodo.15257143)
+Sanam Hosseinzadeh. (2025). *sanamhosseinzadeh/paper_moho_inversion_Makran: v1.0.0 (v1.0.0)*. Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15257143.svg)](https://doi.org/10.5281/zenodo.15257143)
 
 The manuscript is ready for submission and will be open to modifications and revisions as part of the submission process.
