@@ -80,7 +80,7 @@ Note: Open the output `.RData` workspace file before running
 **CRUST1.0 : Global Crustal Model at 1x1 Degrees**
 
 > **depth to Moho**  
->  Laske, G., Masters, G., Ma, Z. and Pasyanos, M., 2013, April. *Update on CRUST1. 0—A 1-degree global model of Earth’s crust*. In Geophysical research abstracts (Vol. 15, No. 15, p. 2658). https://doi.org/10.5880/ICGEM.2019.003
+>  Laske, G., Masters, G., Ma, Z. and Pasyanos, M., 2013, April. *Update on CRUST1. 0—A 1-degree global model of Earth’s crust*. In Geophysical research abstracts (Vol. 15, No. 15, p. 2658). https://igppweb.ucsd.edu/~gabi/crust1.html
 ---
 
  ## Reproducibility Note
