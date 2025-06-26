@@ -1,4 +1,4 @@
-# Moho Beneath the Makran Zone, Iran Based on Gravity Inversion by a Hybrid Metaheuristic
+# Moho Beneath the Makran Zone, Iran from Satellite Gravity based on a Hybrid Metaheuristic
 
 > [Sanam Hosseinzadeh](https://scholar.google.com/citations?user=QMqrtgsAAAAJ&hl=en&oi=ao)  
 > [Gökhan Göktürkler](https://scholar.google.com/citations?user=IRlRnZgAAAAJ&hl=en)  
