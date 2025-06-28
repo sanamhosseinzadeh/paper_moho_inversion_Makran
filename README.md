@@ -5,6 +5,8 @@
 > [Seçil Turan-Karaoğlan](https://scholar.google.com/citations?user=mvZ-EpQAAAAJ&hl=en)  
 > [Somayeh Abdollahi](https://scholar.google.com/citations?user=HoX5-mgAAAAJ&hl=en&oi=ao)  
 ---
+>**Published as a preprint on Authorea**: doi:[10.22541/au.175105949.94966943/v1](https://doi.org/10.22541/au.175105949.94966943/v1)
+---
 ## Key Points:
 -	We recovered the Moho depth map beneath the Makran Subduction Zone using gravity data from satellite sources
 -	Moho depths range from 19 km in the Oman Sea to 45 km beneath the Taftan-Bazman volcanic arc
